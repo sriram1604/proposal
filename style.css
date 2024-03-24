@@ -1,0 +1,44 @@
+.game-container{
+    position: relative;
+}
+.yes{
+    position: absolute;
+    top: 70px;
+    left: 50px;
+}
+.no{
+    position: absolute;
+    top: 70px;
+    left: 150px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(couple-3581038_1280.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    padding: 10px 110px 100px 100px;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+}
+
+.btn{
+    background-color: red;
+    padding: 10px 30px;
+    border-radius: 50px 10px;
+}
+.hidden{
+    position: absolute;
+    left: 10px;
+    font-size: 25px;
+    top: 100px;
+}
+
+
+
+
